@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7501a6c52664b4d808b518d10c2d14, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  onState:
+  - {fileID: 11400000, guid: 2538899c72c8f7b409720a5f10badef3, type: 2}
+  - {fileID: 11400000, guid: 2538899c72c8f7b409720a5f10badef3, type: 2}
+  onEnter:
+  - {fileID: 0}
+  onExit:
+  - {fileID: 0}
+  transitions:
+  - Condition: {fileID: 11400000, guid: 879013d643b8ae6418ad1dfc985a7795, type: 2}
+    TargetState: {fileID: 0}
+    IsDisbale: 0
+  - Condition: {fileID: 0}
+    TargetState: {fileID: 0}
+    IsDisbale: 0
+  - Condition: {fileID: 0}
+    TargetState: {fileID: 0}
+    IsDisbale: 0
+  - Condition: {fileID: 11400000, guid: 879013d643b8ae6418ad1dfc985a7795, type: 2}
+    TargetState: {fileID: 0}
+    IsDisbale: 1
+  - Condition: {fileID: 0}
+    TargetState: {fileID: 0}
+    IsDisbale: 0
+  - Condition: {fileID: 11400000, guid: 879013d643b8ae6418ad1dfc985a7795, type: 2}
+    TargetState: {fileID: 0}
+    IsDisbale: 0
